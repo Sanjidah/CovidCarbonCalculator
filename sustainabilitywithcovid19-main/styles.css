@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: andale mono;
+}
+
+body{
+  background-color: #D5F5E3;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+/*img{
+  border-radius: 50%;
+}*/
+.middle-container{
+  background-color:#a6f0c6;
+}
+
+.bottom-container{
+  background-color: #D5F5E3;
+  text-align: center;
+  color: aliceblue;
+}
+
+p{
+  color: #A5A5AF;
+  text-align: center;
+  width:300px;
+  font-size:1.5rem;
+  margin:25px auto;
+  line-height: 2;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
